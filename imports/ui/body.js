@@ -6,6 +6,8 @@ before it will be loaded and sent to the client.
 */
 import './body.html';
 import './navbar.html';
+import '../ui/navbar.js';
+import '../ui/form.js';
 
 BlazeLayout.setRoot(".app");
 

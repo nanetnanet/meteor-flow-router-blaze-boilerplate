@@ -1,7 +1,5 @@
 import { FlowRouter } from 'meteor/ostrio:flow-router-extra';
 
-import '../ui/form.js';
-
 FlowRouter.route('/', {
   name: 'home',
   action(params, queryParams) {
