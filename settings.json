@@ -1,0 +1,26 @@
+{
+	"metadata": {
+		"metadataStructure": {
+			"Carrier": {
+				"name": {
+					"type": "text"
+				},
+				"refundWindow": {
+					"type": "number"
+				}
+			},
+			"ShipMethod": {
+				"name": {
+					"type": "text"
+				}
+			}
+		},
+		"metadata": {
+			"Carrier": ["UPS", "USPS"]
+		},
+		"metadataFlow": {
+			"Carrier": [["name"], ["refundWindow"]],
+			"ShipMethod": [["name"]]
+		}
+	}
+}
